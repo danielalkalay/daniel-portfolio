@@ -26,12 +26,12 @@ export const Ptag = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-size: 30%;
+  font-size: 5rem;
   justify-content: center;
   align-content: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 3rem;
   } ;
 `;
 
