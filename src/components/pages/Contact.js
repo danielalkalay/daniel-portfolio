@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <MainContainer>
       <Header>Contact</Header>
-      <Ptag>under constraction</Ptag>
+      <Ptag>under construction</Ptag>
     </MainContainer>
   );
 };

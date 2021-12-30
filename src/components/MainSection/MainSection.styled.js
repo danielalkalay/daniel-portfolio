@@ -26,9 +26,13 @@ export const Ptag = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-size: 5rem;
+  font-size: 30%;
   justify-content: center;
   align-content: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  } ;
 `;
 
 export const Header = styled.div`

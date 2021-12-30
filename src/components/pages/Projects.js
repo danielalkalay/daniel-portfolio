@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <MainContainer>
       <Header>Projects</Header>
-      <Ptag>under constraction</Ptag>
+      <Ptag>under construction</Ptag>
     </MainContainer>
   );
 };
