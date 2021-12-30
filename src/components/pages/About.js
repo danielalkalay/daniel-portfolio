@@ -1,24 +1,20 @@
 import React from "react";
-import { AboutImg, AboutP } from "./About.styled.js";
-import daniel3 from "./daniel3.jpg";
-import {
-  Header,
-  MainContainer,
-  MainContant,
-  MainWrap,
-} from "../MainSection/MainSection.styled";
-
+import { Header, MainContainer } from "../MainSection/MainSection.styled";
+import { AboutSection, AboutP, AboutImg } from "../pages/About.styled";
+import aboutpic from "../Assets/aboutpic.jpg";
 const About = () => {
   return (
     <MainContainer>
       <Header>About </Header>
-      <MainContant>
-        <AboutP>i'm Daniel, a self learner, Dreamer,</AboutP>
-        <AboutImg src={daniel3} />
-      </MainContant>
+      <AboutSection>
+        <AboutP>
+          hey,
+          <br /> my name is Daniel, i'm an autodidact, curiuos and eager to
+          learn all the time, trying to know a little bit of everything =]
+        </AboutP>
+        <AboutImg src={aboutpic} alt="about pic" />
+      </AboutSection>
     </MainContainer>
-    //     <MainWrap>
-    // </MainWrap>
   );
 };
 

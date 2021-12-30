@@ -1,4 +1,4 @@
-import { FaBars, FaDog } from "react-icons/fa";
+import { FaDog } from "react-icons/fa";
 import {
   // HeaderStyle,
   Logo,
@@ -37,10 +37,7 @@ const NavBar = () => {
           Contact
         </NavLinkS>
       </NavLinksContainer>
-
-      <MobileIcon>
-        <FaBars onClick={SideBarHandler} />
-      </MobileIcon>
+      <MobileIcon onClick={SideBarHandler} />
 
       <SideBar
         SideBarHandler={SideBarHandler}

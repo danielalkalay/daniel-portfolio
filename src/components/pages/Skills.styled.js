@@ -3,80 +3,86 @@ import styled from "styled-components";
 export const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: flex-start;
   align-items: center;
-  position: relative;
-  top: 80px;
-`;
-
-export const SkillsWraper = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  @media screen and (max-width: 768px) {
-    display: flex;
-  } ;
-`;
-
-export const SkillsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  border-radius: 50px;
-  align-items: center;
-  background: linear-gradient(180deg, white, 25%, #6abcff);
-  @media screen and (max-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  } ;
-`;
-
-export const SkillHeader = styled.h2`
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  color: rgb(45 49 159);
-  margin: 5px;
-  height: 60px;
-  align-items: center;
-  border-radius: 10px;
-
-  &:hover {
-    filter: brightness(1.6);
-  }
-`;
-
-export const SkillList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  align-items: center;
-`;
-
-export const SkillWraper = styled.li`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 5px;
-  font-size: 1.2rem;
   width: 100%;
-  /* width: inherit; */
-  /* color: ${({ icon }) => (icon ? "yellow" : "black")}; */
 
-  @media screen and (max-widh: 768px) {
+  .each-fade {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    font-size: 1rem;
+    /* max-height: 200px; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-height: 200px;
+    border-radius: 20px;
+  }
+
+  .slide-container {
+    max-width: 520px;
+    width: 60%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  /* .slide-container > .react-slideshow-container {
+    display: flex;
+    align-items: center;
+  } */
+  .react-slideshow-container {
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 5px 20px black;
+    border-radius: 20px;
+  }
+  .indicators {
+    margin-top: 0px;
   }
 `;
-export const SkillImg = styled.div`
+export const Contant = styled.div`
   display: flex;
-  /* font-size: 2rem; */
-  margin: 5px;
+  justify-content: center;
+  width: 100%;
+  border-radius: 20px;
+  background-color: lightblue;
+  margin: 0;
+`;
+export const SkillImg = styled.img`
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  border-radius: 20px;
+  padding: 5px;
+`;
+
+export const ContantInfo = styled.div`
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 1rem;
+  /* background: #adceed; */
+  font-family: "Bangers", cursive;
+
+  h2 {
+    font-size: 1rem;
+    font-family: "Bangers", cursive;
+  }
+
+  p {
+    align-self: center;
+    font-size: 0.7rem;
+    font-family: "Bangers", cursive;
+  }
+`;
+
+export const CaruselStyle = styled.div`
+  display: flex;
+  /* box-shadow: black; */
 `;

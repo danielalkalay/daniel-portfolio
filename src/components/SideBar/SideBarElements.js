@@ -5,14 +5,13 @@ export const SideBarContainer = styled.div`
   display: flex;
   background: #414cd9;
   height: 100vh;
-  /* width: 100%; */
   flex-direction: column;
-
   align-items: center;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
+  top: 0;
   top: ${({ sidebar }) => (sidebar ? "0" : "-110%")};
   transition: 1s ease;
   z-index: 10;

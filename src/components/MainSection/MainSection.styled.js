@@ -1,48 +1,43 @@
 import styled from "styled-components";
 
-export const MainSectionS = styled.div`
+export const MainSectionStyle = styled.div`
   display: flex;
   flex-direction: column;
-  /* top: 80px; */
+  background-color: #6abcff;
   position: relative;
   text-align: center;
   justify-content: center;
-  background-color: #6abcff;
-  /* height: 100%; */
-`;
-export const MainWrap = styled.div`
-  display: flex;
-  /* height: 100vh; */
-  position: relative;
-  background-color: #6abcff;
-  top: 80px;
+  top: 60px;
 `;
 
 export const MainContainer = styled.div`
-  background-color: #6abcff;
   display: flex;
+  background-color: #6abcff;
   flex-direction: column;
-  /* justify-content: flex-start; */
   align-items: center;
   z-index: 1;
-  width: 100%;
   position: relative;
-  top: 80px;
-  position: relative;
-  /* height: calc(100vh - 80px); */
-  height: fit-content;
+  top: 100px;
+  bottom: -60px;
+  min-height: 100vh;
+`;
+
+export const Ptag = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 5rem;
+  justify-content: center;
+  align-content: center;
 `;
 
 export const Header = styled.div`
-  font-size: 4rem;
+  font-size: 3rem;
   display: flex;
   color: whitesmoke;
-  margin: 20px;
+  margin-top: 30px;
+  font-family: "Bangers", cursive;
 
   @media screen and (max-width: 768px) {
   } ;
-`;
-
-export const MainContant = styled.div`
-  display: flex;
 `;

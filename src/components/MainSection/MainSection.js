@@ -4,17 +4,15 @@ import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Projects from "../pages/Projects";
 import Skills from "../pages/Skills";
-import { MainSectionS, MainWrap } from "./MainSection.styled";
+import { MainSectionStyle } from "./MainSection.styled";
 import { Element } from "react-scroll";
 
 const MainSection = () => {
   return (
-    <MainSectionS>
-      <MainWrap>
-        <Element name="home">
-          <Home />
-        </Element>
-      </MainWrap>
+    <MainSectionStyle>
+      <Element name="home">
+        <Home />
+      </Element>
 
       <Element name="about">
         <About />
@@ -28,10 +26,10 @@ const MainSection = () => {
         <Projects />
       </Element>
 
-      {/* <Element name="contact">
+      <Element name="contact">
         <Contact />
-      </Element> */}
-    </MainSectionS>
+      </Element>
+    </MainSectionStyle>
   );
 };
 

@@ -1,17 +1,12 @@
 import React from "react";
-import {
-  Header,
-  MainContainer,
-  MainWrap,
-} from "../MainSection/MainSection.styled";
+import { Header, MainContainer, Ptag } from "../MainSection/MainSection.styled";
 
 const Contact = () => {
   return (
-    <MainWrap>
-      <MainContainer>
-        <Header>Contact</Header>
-      </MainContainer>
-    </MainWrap>
+    <MainContainer>
+      <Header>Contact</Header>
+      <Ptag>under constraction</Ptag>
+    </MainContainer>
   );
 };
 

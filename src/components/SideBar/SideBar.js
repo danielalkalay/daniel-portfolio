@@ -3,9 +3,7 @@ import {
   NavLinkS,
   NavLinksContainer,
   SideBarContainer,
-  SideBarIcon,
 } from "./SideBarElements";
-import { AiOutlineClose } from "react-icons/ai";
 
 const SideBar = ({ SideBarHandler, sidebar, setSidebar }) => {
   return (

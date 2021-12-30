@@ -1,70 +1,112 @@
 import React from "react";
-import {
-  SkillHeader,
-  SkillList,
-  SkillsContainer,
-  SkillsSection,
-  SkillsWraper,
-} from "./Skills.styled";
-import SkillItem from "../SkillItem/SkillItem";
-import {
-  FrontEnd,
-  BackEnd,
-  ProgramLang,
-  DataBase,
-} from "../SkillItem/SkillsData";
-import {
-  Header,
-  MainContainer,
-  MainWrap,
-} from "../MainSection/MainSection.styled";
+import { Header, MainContainer } from "../MainSection/MainSection.styled";
+import { SkillsSection } from "./Skills.styled";
+
+import Carusel from "../Carusel";
+import { Front, Languege, Back } from "../SkillData";
 
 const Skills = () => {
   return (
-    <MainWrap>
-      <MainContainer>
+    <MainContainer>
+      <SkillsSection>
         <Header>Skills</Header>
-        <SkillsWraper>
-          <SkillsContainer>
-            <SkillHeader>Front end</SkillHeader>
-
-            <SkillList>
-              {FrontEnd.map((item) => (
-                <SkillItem key={item.icon} icon={item.icon} name={item.name} />
-              ))}
-            </SkillList>
-          </SkillsContainer>
-
-          <SkillsContainer>
-            <SkillHeader>Back end</SkillHeader>
-            <SkillList>
-              {BackEnd.map((item) => (
-                <SkillItem key={item.icon} icon={item.icon} name={item.name} />
-              ))}
-            </SkillList>
-          </SkillsContainer>
-
-          <SkillsContainer>
-            <SkillHeader>Programing langueges</SkillHeader>
-            <SkillList>
-              {ProgramLang.map((item) => (
-                <SkillItem key={item.icon} icon={item.icon} name={item.name} />
-              ))}
-            </SkillList>
-          </SkillsContainer>
-
-          <SkillsContainer>
-            <SkillHeader>Data Base</SkillHeader>
-            <SkillList>
-              {DataBase.map((item) => (
-                <SkillItem key={item.icon} icon={item.icon} name={item.name} />
-              ))}
-            </SkillList>
-          </SkillsContainer>
-        </SkillsWraper>
-      </MainContainer>
-    </MainWrap>
+        <Carusel data={Front} />
+        <Carusel data={Back} />
+        <Carusel data={Languege} />
+      </SkillsSection>
+    </MainContainer>
   );
 };
 
 export default Skills;
+// <div className="slide-container">
+// <Fade duration={3000} arrows={true} autoplay={false}>
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={Node} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>First Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={ReactLogo} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>Second Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={aboutpic} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>Thired Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={aboutpic} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>4th Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={aboutpic} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>5th Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={aboutpic} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>6th Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+// </Fade>
+// </div>
+// <div className="slide-container">
+// <Fade duration={3000} arrows={true} autoplay={false}>
+//   <div className="each-fade">
+//     <Contant>
+//       <SkillImg src={Node} />
+//       <ContantInfo>
+//         <h2>header</h2>
+//         <p>First Slide</p>
+//       </ContantInfo>
+//     </Contant>
+//   </div>
+// </Fade>
+// {/* </div */}
+
+// <Fade>
+//   <div className="each-fade">
+//     <div>
+//       <SkillImg src={aboutpic} alt="about pic" />
+//       {/* <SkillImg src={aboutpic} alt="about pic" /> */}
+//     </div>
+//     <p>First Slide</p>
+//   </div>
+//   {/* <div className="each-fade">
+//     <div>
+//       <SkillImg src={aboutpic} alt="about pic" />
+//     </div>
+//     <p>First Slide</p>
+//   </div> */}
+// </Fade>

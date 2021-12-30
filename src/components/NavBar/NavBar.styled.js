@@ -1,28 +1,18 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
+import { FaBars } from "react-icons/fa";
 
 export const NavBarStyle = styled.div`
   display: flex;
-  justify-content: space-between;
   font-size: 2rem;
   background: #414cd9;
-  align-items: center;
-  height: 80px;
+  height: 60px;
   width: 100vw;
-  top: 0;
   position: fixed;
-  z-index: 10;
-`;
-
-export const Logo = styled(LinkS)`
-  padding: 20px;
-  font-size: 3rem;
-  color: whitesmoke;
-
-  &:hover {
-    cursor: pointer;
-    color: orange;
-  }
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 `;
 
 export const NavLinksContainer = styled.ul`
@@ -30,6 +20,7 @@ export const NavLinksContainer = styled.ul`
   font-weight: bold;
   font-size: 2rem;
   justify-content: center;
+  align-content: center;
   border-radius: 8px;
 `;
 
@@ -40,7 +31,6 @@ export const NavLinkS = styled(LinkS)`
   height: 100%;
   align-items: center;
   color: whitesmoke;
-  background: #414cd9;
   text-decoration: none;
 
   &:hover {
@@ -58,19 +48,26 @@ export const NavLinkS = styled(LinkS)`
   } ;
 `;
 
-export const MobileIcon = styled.div`
+export const MobileIcon = styled(FaBars)`
   display: none;
 
   @media screen and (max-width: 768px) {
-    display: block;
-    align-items: center;
-    margin-bottom: 20px;
-    position: relative;
+    display: flex;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     color: whitesmoke;
     cursor: pointer;
-    top: 0;
-    right: 0;
+    position: relative;
+    bottom: 17px;
   } ;
+`;
+export const Logo = styled(LinkS)`
+  padding: 0 20px;
+  font-size: 2.5rem;
+  color: whitesmoke;
+
+  &:hover {
+    cursor: pointer;
+    color: orange;
+  }
 `;
