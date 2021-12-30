@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.js": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/main.fc6e2fcb.chunk.js",
-    "main.js.map": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/main.fc6e2fcb.chunk.js.map",
-    "runtime-main.js": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/runtime-main.e95a0bc6.js",
-    "runtime-main.js.map": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/runtime-main.e95a0bc6.js.map",
-    "static/css/2.b57b7cfd.chunk.css": "/https//:danielalkalay.github.io/daniel-portfolio/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.30b2e3e0.chunk.js": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/2.30b2e3e0.chunk.js",
-    "static/js/2.30b2e3e0.chunk.js.map": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/2.30b2e3e0.chunk.js.map",
-    "index.html": "/https//:danielalkalay.github.io/daniel-portfolio/index.html",
-    "static/css/2.b57b7cfd.chunk.css.map": "/https//:danielalkalay.github.io/daniel-portfolio/static/css/2.b57b7cfd.chunk.css.map",
-    "static/js/2.30b2e3e0.chunk.js.LICENSE.txt": "/https//:danielalkalay.github.io/daniel-portfolio/static/js/2.30b2e3e0.chunk.js.LICENSE.txt",
-    "static/media/NodeLogo.7c94c770.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/NodeLogo.7c94c770.png",
-    "static/media/ReactLogo.3c1cca49.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/ReactLogo.3c1cca49.png",
-    "static/media/aboutpic.207ff122.jpg": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/aboutpic.207ff122.jpg",
-    "static/media/cssLogo.6402b604.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/cssLogo.6402b604.png",
-    "static/media/expressLogo.915b8962.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/expressLogo.915b8962.png",
-    "static/media/html5Logo.d4bc84dd.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/html5Logo.d4bc84dd.png",
-    "static/media/reactRouterLogo.59eb6c21.png": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/reactRouterLogo.59eb6c21.png",
-    "static/media/video.604c63cb.mp4": "/https//:danielalkalay.github.io/daniel-portfolio/static/media/video.604c63cb.mp4"
+    "main.js": "/daniel-portfolio/static/js/main.fc6e2fcb.chunk.js",
+    "main.js.map": "/daniel-portfolio/static/js/main.fc6e2fcb.chunk.js.map",
+    "runtime-main.js": "/daniel-portfolio/static/js/runtime-main.00bdde4b.js",
+    "runtime-main.js.map": "/daniel-portfolio/static/js/runtime-main.00bdde4b.js.map",
+    "static/css/2.b57b7cfd.chunk.css": "/daniel-portfolio/static/css/2.b57b7cfd.chunk.css",
+    "static/js/2.a6d6af6d.chunk.js": "/daniel-portfolio/static/js/2.a6d6af6d.chunk.js",
+    "static/js/2.a6d6af6d.chunk.js.map": "/daniel-portfolio/static/js/2.a6d6af6d.chunk.js.map",
+    "index.html": "/daniel-portfolio/index.html",
+    "static/css/2.b57b7cfd.chunk.css.map": "/daniel-portfolio/static/css/2.b57b7cfd.chunk.css.map",
+    "static/js/2.a6d6af6d.chunk.js.LICENSE.txt": "/daniel-portfolio/static/js/2.a6d6af6d.chunk.js.LICENSE.txt",
+    "static/media/NodeLogo.7c94c770.png": "/daniel-portfolio/static/media/NodeLogo.7c94c770.png",
+    "static/media/ReactLogo.3c1cca49.png": "/daniel-portfolio/static/media/ReactLogo.3c1cca49.png",
+    "static/media/aboutpic.207ff122.jpg": "/daniel-portfolio/static/media/aboutpic.207ff122.jpg",
+    "static/media/cssLogo.6402b604.png": "/daniel-portfolio/static/media/cssLogo.6402b604.png",
+    "static/media/expressLogo.915b8962.png": "/daniel-portfolio/static/media/expressLogo.915b8962.png",
+    "static/media/html5Logo.d4bc84dd.png": "/daniel-portfolio/static/media/html5Logo.d4bc84dd.png",
+    "static/media/reactRouterLogo.59eb6c21.png": "/daniel-portfolio/static/media/reactRouterLogo.59eb6c21.png",
+    "static/media/video.604c63cb.mp4": "/daniel-portfolio/static/media/video.604c63cb.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e95a0bc6.js",
+    "static/js/runtime-main.00bdde4b.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.30b2e3e0.chunk.js",
+    "static/js/2.a6d6af6d.chunk.js",
     "static/js/main.fc6e2fcb.chunk.js"
   ]
 }
