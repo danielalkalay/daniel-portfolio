@@ -29,7 +29,7 @@ export const Ptag = styled.div`
   font-size: 5rem;
   justify-content: center;
   align-content: center;
-  color: greenyellow;
+  color: black;
 
   @media screen and (max-width: 768px) {
     font-size: 3rem;
