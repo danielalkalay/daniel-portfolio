@@ -10,6 +10,6 @@ const Contact = () => {
   );
 };
 
-// adding a messege to understand the commit/deploy/push
+// did it
 
 export default Contact;
