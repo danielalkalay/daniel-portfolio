@@ -10,4 +10,6 @@ const Contact = () => {
   );
 };
 
+// adding a messege to understand the commit/deploy/push
+
 export default Contact;
