@@ -15,10 +15,12 @@ export const SkillsSection = styled.div`
     padding: 10px;
     justify-content: center;
     align-content: center;
+    /* height: inherit; */
   }
 
   .slide-container {
-    max-height: 250px;
+    background-color: lightblue;
+    /* max-height: 250px; */
     max-width: 300px;
     margin: 10px;
     display: flex;
@@ -26,7 +28,7 @@ export const SkillsSection = styled.div`
     border-radius: 20px;
     justify-content: center;
     align-content: center;
-    background-color: lightblue;
+    box-shadow: 10px 5px 10px black;
     @media screen and (max-width: 768px) {
       max-width: 220px;
     }
@@ -36,7 +38,6 @@ export const SkillsSection = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 10px 5px 10px black;
     border-radius: 20px;
   }
 `;
