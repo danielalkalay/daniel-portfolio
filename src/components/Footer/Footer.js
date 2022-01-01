@@ -1,6 +1,6 @@
 import React from "react";
 import { FooterLink, FooterLinksWrap, FooterWrap } from "./FooterStyled";
-import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -16,6 +16,9 @@ const Footer = () => {
 
         <FooterLink href="https://github.com/danielalkalay">
           <BsGithub />
+        </FooterLink>
+        <FooterLink href="https://www.linkedin.com/in/daniel-alkalay-632380219/">
+          <BsLinkedin />
         </FooterLink>
       </FooterLinksWrap>
     </FooterWrap>
