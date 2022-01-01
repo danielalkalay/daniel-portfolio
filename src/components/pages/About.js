@@ -8,7 +8,7 @@ const About = () => {
       <Header>About </Header>
       <AboutSection>
         <AboutP>
-          hey,
+          Hey,
           <br /> my name is Daniel, i'm an autodidact, curiuos and eager to
           learn all the time, trying to know a little bit of everything =]
         </AboutP>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, MainContainer } from "../MainSection/MainSection.styled";
-import { SkillsSection } from "./Skills.styled";
+import { CaruselWraper, SkillsSection } from "./Skills.styled";
 
 import Carusel from "../Carusel";
 import { Front, Languege, Back } from "../SkillData";
@@ -10,9 +10,11 @@ const Skills = () => {
     <MainContainer>
       <SkillsSection>
         <Header>Skills</Header>
-        <Carusel data={Front} />
-        <Carusel data={Back} />
-        <Carusel data={Languege} />
+        <CaruselWraper>
+          <Carusel data={Front} />
+          <Carusel data={Back} />
+          <Carusel data={Languege} />
+        </CaruselWraper>
       </SkillsSection>
     </MainContainer>
   );
