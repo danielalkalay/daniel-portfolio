@@ -13,7 +13,7 @@ export const SkillsSection = styled.div`
   .each-fade {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     align-content: center;
     /* height: inherit; */
@@ -45,7 +45,7 @@ export const SkillsSection = styled.div`
 export const Contant = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   width: 100%;
   border-radius: 20px;
   align-content: center;
