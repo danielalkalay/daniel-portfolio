@@ -1,7 +1,7 @@
 import React from "react";
 import { Header, MainContainer } from "../MainSection/MainSection.styled";
 import { AboutSection, AboutImg, AboutContant } from "../pages/About.styled";
-import aboutpic from "../Assets/aboutpic.jpg";
+import biopic from "../Assets/biopic.jpeg";
 const About = () => {
   return (
     <MainContainer>
@@ -13,7 +13,7 @@ const About = () => {
             <br /> my name is Daniel, i'm an autodidact, curiuos and eager to
             learn all the time, trying to know a little bit of everything =]
           </p>
-          <AboutImg src={aboutpic} alt="about pic" />
+          <AboutImg src={biopic} alt="about pic" />
         </AboutContant>
       </AboutSection>
     </MainContainer>
