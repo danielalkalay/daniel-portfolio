@@ -6,10 +6,9 @@ export const SkillsSection = styled.div`
   align-items: center;
   align-content: center;
   width: 100%;
-  display: flex;
   min-height: 100vh;
-  background-color: #1eb4e4;
-  padding-bottom: 30px;
+  background-color: #2845ac;
+  position: relative;
 
   .each-fade {
     display: flex;

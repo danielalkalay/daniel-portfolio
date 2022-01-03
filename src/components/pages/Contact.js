@@ -7,7 +7,7 @@ const Contact = () => {
     <MainContainer>
       <ContactSection>
         <Header>Contact</Header>
-        {/* <Ptag>under construction</Ptag> */}
+        <Ptag>under construction</Ptag>
       </ContactSection>
     </MainContainer>
   );

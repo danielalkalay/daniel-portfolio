@@ -4,11 +4,7 @@ import VideoContainer from "../video/VideoContainer";
 import { VideoSection } from "../video/VideoContainerElements";
 
 const Home = () => {
-  return (
-    <MainContainer>
-      <VideoContainer />
-    </MainContainer>
-  );
+  return <VideoContainer />;
 
   // <VideoContainer />
 };

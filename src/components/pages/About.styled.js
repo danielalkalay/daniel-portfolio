@@ -6,9 +6,10 @@ export const AboutSection = styled.div`
   align-items: center;
   align-content: center;
   width: 100%;
-  display: flex;
   min-height: 100vh;
-  background-color: pink;
+  background-color: #ffd54f;
+  position: relative;
+  padding-top: 20px;
 `;
 
 export const AboutContant = styled.div`
@@ -22,7 +23,6 @@ export const AboutContant = styled.div`
   border: solid 4px navy;
   border-radius: 30px;
   padding: 10px;
-  /* margin: 50px; */
 
   p {
     width: 40%;

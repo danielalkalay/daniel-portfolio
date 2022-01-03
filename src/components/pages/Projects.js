@@ -7,7 +7,7 @@ const Projects = () => {
     <MainContainer>
       <ProjectsSection>
         <Header>Projects</Header>
-        {/* <Ptag>under construction</Ptag> */}
+        <Ptag>under construction</Ptag>
       </ProjectsSection>
     </MainContainer>
   );

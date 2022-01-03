@@ -9,27 +9,30 @@ import {
   VideoSection,
 } from "./VideoContainerElements";
 import Typewriter from "typewriter-effect";
+import { MainContainer } from "../MainSection/MainSection.styled";
 
 const VideoContainer = () => {
   return (
-    <VideoSection>
-      <BoxBG>
-        <VideoBG autoPlay loop muted src={Video} type="video/mp4"></VideoBG>
-      </BoxBG>
-      <VideoContant>
-        <VideoH>Daniel Alkalay</VideoH>
-        <VideoP>
-          <Typewriter
-            options={{
-              strings: ["Front-end developer", "a Chef", "a Human"],
-              autoStart: true,
-              loop: true,
-              pauseFor: "1000ms",
-            }}
-          />{" "}
-        </VideoP>
-      </VideoContant>
-    </VideoSection>
+    <MainContainer>
+      <VideoSection>
+        <BoxBG>
+          <VideoBG autoPlay loop muted src={Video} type="video/mp4"></VideoBG>
+        </BoxBG>
+        <VideoContant>
+          <VideoH>Daniel Alkalay</VideoH>
+          <VideoP>
+            <Typewriter
+              options={{
+                strings: ["Front-end developer", "a Chef", "a Human"],
+                autoStart: true,
+                loop: true,
+                pauseFor: "1000ms",
+              }}
+            />
+          </VideoP>
+        </VideoContant>
+      </VideoSection>
+    </MainContainer>
   );
 };
 
