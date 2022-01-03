@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   align-content: center;
-
   width: 100%;
+  display: flex;
+  min-height: 100vh;
+  background-color: #1eb4e4;
+  padding-bottom: 30px;
 
   .each-fade {
     display: flex;
@@ -22,13 +24,13 @@ export const SkillsSection = styled.div`
     background-color: lightblue;
     /* max-height: 250px; */
     max-width: 300px;
-    margin: 10px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     justify-content: center;
     align-content: center;
-    box-shadow: 10px 5px 10px black;
+    box-shadow: 10px 5px 10px 5px black;
     @media screen and (max-width: 768px) {
       max-width: 220px;
     }

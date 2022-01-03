@@ -5,10 +5,21 @@ export const VideoSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
+  position: relative;
   z-index: 1;
   width: 100vw;
   height: 100vh;
+  /* top: 60px; */
+  /* 
+  background: rgb(12, 12, 12);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh; */
 `;
 
 export const BoxBG = styled.div`

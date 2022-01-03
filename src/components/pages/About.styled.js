@@ -2,32 +2,39 @@ import styled from "styled-components";
 
 export const AboutSection = styled.div`
   display: flex;
-  flex-direction: row;
-  border: solid 4px navy;
-  border-radius: 30px;
-  height: 60%;
-  /* width: -webkit-fill-available; */
-  margin: 20px;
-  padding: 10px;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  align-content: center;
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  background-color: pink;
 `;
 
-export const AboutP = styled.div`
+export const AboutContant = styled.div`
   font-size: 1rem;
   font-weight: 800;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  width: 50%;
+  width: 60%;
+  height: auto;
+  border: solid 4px navy;
+  border-radius: 30px;
+  padding: 10px;
   /* margin: 50px; */
+
+  p {
+    width: 40%;
+  }
 `;
 
 export const AboutImg = styled.img`
   margin: 10px;
-  width: 10rem;
+  width: 30%;
   height: auto;
 
-  border-radius: 50%;
+  border-radius: 20px;
   &:hover {
     filter: brightness(1.2);
   }

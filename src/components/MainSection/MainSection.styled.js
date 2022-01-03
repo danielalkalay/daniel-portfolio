@@ -3,23 +3,30 @@ import styled from "styled-components";
 export const MainSectionStyle = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #6abcff;
+  /* background-color: #6abcff; */
   position: relative;
   text-align: center;
   justify-content: center;
-  top: 60px;
+  /* top: 60px; */
 `;
 
 export const MainContainer = styled.div`
   display: flex;
-  background-color: #6abcff;
   flex-direction: column;
   align-items: center;
   z-index: 1;
   position: relative;
-  top: 100px;
-  bottom: -60px;
+  top: inherit;
   min-height: 100vh;
+  top: 60px;
+
+  /* background: rgb(12, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh; */
 `;
 
 export const Ptag = styled.div`

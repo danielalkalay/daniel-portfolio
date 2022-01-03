@@ -6,6 +6,7 @@ import Projects from "../pages/Projects";
 import Skills from "../pages/Skills";
 import { MainSectionStyle } from "./MainSection.styled";
 import { Element } from "react-scroll";
+import Footer from "../Footer/Footer";
 
 const MainSection = () => {
   return (
@@ -29,6 +30,7 @@ const MainSection = () => {
       <Element name="contact">
         <Contact />
       </Element>
+      <Footer />
     </MainSectionStyle>
   );
 };

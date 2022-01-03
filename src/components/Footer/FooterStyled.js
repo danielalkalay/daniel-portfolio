@@ -2,16 +2,13 @@ import styled from "styled-components";
 
 export const FooterWrap = styled.div`
   display: flex;
-  position: relative;
   height: 60px;
   background-color: navy;
   font-size: 2rem;
   font-weight: 700;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   z-index: 999;
-  bottom: -60px;
-  top: 100px;
 `;
 
 export const FooterLinksWrap = styled.div`
@@ -20,7 +17,7 @@ export const FooterLinksWrap = styled.div`
   width: 100%;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 `;
 
 export const FooterLink = styled.a`
@@ -29,7 +26,6 @@ export const FooterLink = styled.a`
   align-items: center;
   color: whitesmoke;
   background: navy;
-  /* text-decoration: none; */
 
   & :hover {
     transition: ease;

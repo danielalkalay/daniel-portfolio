@@ -11,7 +11,6 @@ function App() {
       <GlobalStyle />
       <NavBar />
       <MainSection />
-      <Footer />
     </>
   );
 }
