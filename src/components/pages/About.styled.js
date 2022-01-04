@@ -31,7 +31,7 @@ export const AboutContant = styled.div`
 
 export const AboutImg = styled.img`
   margin: 10px;
-  width: 30%;
+  width: 20%;
   height: auto;
 
   border-radius: 20px;
