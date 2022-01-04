@@ -40,6 +40,7 @@ export const Header = styled.div`
   color: whitesmoke;
   margin: 30px;
   font-family: "Bangers", cursive;
+  align-self: center;
 
   @media screen and (max-width: 768px) {
   } ;

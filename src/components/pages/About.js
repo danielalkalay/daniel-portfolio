@@ -1,7 +1,15 @@
 import React from "react";
 import { Header, MainContainer } from "../MainSection/MainSection.styled";
-import { AboutSection, AboutImg, AboutContant } from "../pages/About.styled";
+import {
+  AboutSection,
+  AboutImg,
+  AboutContant,
+  AboutCarusel,
+} from "../pages/About.styled";
 import biopic from "../Assets/biopic.jpeg";
+import Carusel from "../../components/Carusel";
+import { me } from "../AboutData";
+
 const About = () => {
   return (
     <MainContainer>
@@ -15,6 +23,9 @@ const About = () => {
           </p>
           <AboutImg src={biopic} alt="about pic" />
         </AboutContant>
+        <AboutCarusel>
+          <Carusel data={me} />
+        </AboutCarusel>
       </AboutSection>
     </MainContainer>
   );
