@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.js": "/daniel-portfolio/static/js/main.45c594e6.chunk.js",
-    "main.js.map": "/daniel-portfolio/static/js/main.45c594e6.chunk.js.map",
+    "main.js": "/daniel-portfolio/static/js/main.93e1b735.chunk.js",
+    "main.js.map": "/daniel-portfolio/static/js/main.93e1b735.chunk.js.map",
     "runtime-main.js": "/daniel-portfolio/static/js/runtime-main.00bdde4b.js",
     "runtime-main.js.map": "/daniel-portfolio/static/js/runtime-main.00bdde4b.js.map",
     "static/css/2.b57b7cfd.chunk.css": "/daniel-portfolio/static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.6e72423d.chunk.js": "/daniel-portfolio/static/js/2.6e72423d.chunk.js",
-    "static/js/2.6e72423d.chunk.js.map": "/daniel-portfolio/static/js/2.6e72423d.chunk.js.map",
+    "static/js/2.8f44ed24.chunk.js": "/daniel-portfolio/static/js/2.8f44ed24.chunk.js",
+    "static/js/2.8f44ed24.chunk.js.map": "/daniel-portfolio/static/js/2.8f44ed24.chunk.js.map",
     "index.html": "/daniel-portfolio/index.html",
     "static/css/2.b57b7cfd.chunk.css.map": "/daniel-portfolio/static/css/2.b57b7cfd.chunk.css.map",
-    "static/js/2.6e72423d.chunk.js.LICENSE.txt": "/daniel-portfolio/static/js/2.6e72423d.chunk.js.LICENSE.txt",
+    "static/js/2.8f44ed24.chunk.js.LICENSE.txt": "/daniel-portfolio/static/js/2.8f44ed24.chunk.js.LICENSE.txt",
     "static/media/NodeLogo.7c94c770.png": "/daniel-portfolio/static/media/NodeLogo.7c94c770.png",
     "static/media/ReactLogo.3c1cca49.png": "/daniel-portfolio/static/media/ReactLogo.3c1cca49.png",
     "static/media/biopic.4c2fbc3a.jpeg": "/daniel-portfolio/static/media/biopic.4c2fbc3a.jpeg",
     "static/media/cssLogo.6402b604.png": "/daniel-portfolio/static/media/cssLogo.6402b604.png",
     "static/media/expressLogo.915b8962.png": "/daniel-portfolio/static/media/expressLogo.915b8962.png",
+    "static/media/food1.b9c3886e.jpg": "/daniel-portfolio/static/media/food1.b9c3886e.jpg",
+    "static/media/food2.10512bd4.jpg": "/daniel-portfolio/static/media/food2.10512bd4.jpg",
+    "static/media/food3.34bb2b1a.jpg": "/daniel-portfolio/static/media/food3.34bb2b1a.jpg",
     "static/media/html5Logo.d4bc84dd.png": "/daniel-portfolio/static/media/html5Logo.d4bc84dd.png",
     "static/media/reactRouterLogo.59eb6c21.png": "/daniel-portfolio/static/media/reactRouterLogo.59eb6c21.png",
     "static/media/video.604c63cb.mp4": "/daniel-portfolio/static/media/video.604c63cb.mp4"
@@ -22,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.00bdde4b.js",
     "static/css/2.b57b7cfd.chunk.css",
-    "static/js/2.6e72423d.chunk.js",
-    "static/js/main.45c594e6.chunk.js"
+    "static/js/2.8f44ed24.chunk.js",
+    "static/js/main.93e1b735.chunk.js"
   ]
 }
