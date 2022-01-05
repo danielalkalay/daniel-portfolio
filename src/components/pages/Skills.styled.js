@@ -16,12 +16,10 @@ export const SkillsSection = styled.div`
     padding: 20px;
     justify-content: center;
     align-content: center;
-    /* height: inherit; */
   }
 
   .slide-container {
     background-color: lightblue;
-    /* max-height: 250px; */
     max-width: 300px;
     margin: 15px;
     display: flex;

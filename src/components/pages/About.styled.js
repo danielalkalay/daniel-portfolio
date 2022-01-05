@@ -33,7 +33,7 @@ export const AboutContant = styled.div`
 
 export const AboutImg = styled.img`
   margin: 10px;
-  width: 30%;
+  width: 40%;
   height: auto;
 
   border-radius: 20px;
@@ -46,35 +46,29 @@ export const AboutCarusel = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 60%;
+  /* justify-content: space-around; */
+  width: 80%;
   height: auto;
   border-radius: 30px;
   padding: 10px;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 
   img {
     height: auto;
-    width: 100%;
+    width: 70%;
     border-radius: 40px;
   }
   .slide-container {
     background-color: inherit;
-
     margin: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 50px;
     justify-content: center;
     align-content: center;
-    max-width: 220px;
+    max-width: 60%;
+    /* padding-left: 40%; */
   }
-
-  /* .react-slideshow-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-  } */
 `;

@@ -8,7 +8,7 @@ import {
 } from "../pages/About.styled";
 import biopic from "../Assets/biopic.jpeg";
 import Carusel from "../../components/Carusel";
-import { me } from "../AboutData";
+import { food } from "../AboutData";
 
 const About = () => {
   return (
@@ -24,7 +24,9 @@ const About = () => {
           <AboutImg src={biopic} alt="about pic" />
         </AboutContant>
         <AboutCarusel>
-          <Carusel data={me} />
+          <Carusel data={food} />
+          {/* <Carusel data={food} /> */}
+          {/* <Carusel data={food} /> */}
         </AboutCarusel>
       </AboutSection>
     </MainContainer>
